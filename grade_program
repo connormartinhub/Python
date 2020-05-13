@@ -1,0 +1,20 @@
+# Python program that asks for student input and outputs grades of student scores.
+score = float(input("Please input the test score, 0-100"))
+
+if score >= 90:
+    print("This students grade is an A")
+else:
+    if score >= 80:
+        print("This students grade is an B")
+    else:
+        if score >= 70:
+            print("This students grade is an C")
+        else:
+            if score >= 60:
+                print("This students grade is an D")
+            else:
+                if score >=50:
+                    print("This students grade is an F")
+                else:
+                    if score>=0:
+                        print("This students grade is an F")
