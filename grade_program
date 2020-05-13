@@ -1,20 +1,16 @@
-# Python program that asks for student input and outputs grades of student scores.
 score = float(input("Please input the test score, 0-100"))
 
 if score >= 90:
     print("This students grade is an A")
+elif score>= 80:
+    print("This students grade is an B")
+elif score >= 70:
+    print("This students grade is an C")
+elif score >= 60:
+    print("This students grade is an D")
+elif score >=50:
+    print("This students grade is an F")
+elif score>=0:
+    print("This students grade is an F")
 else:
-    if score >= 80:
-        print("This students grade is an B")
-    else:
-        if score >= 70:
-            print("This students grade is an C")
-        else:
-            if score >= 60:
-                print("This students grade is an D")
-            else:
-                if score >=50:
-                    print("This students grade is an F")
-                else:
-                    if score>=0:
-                        print("This students grade is an F")
+    print("Error: you have not typed a valid number.")
